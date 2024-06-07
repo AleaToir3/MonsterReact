@@ -5,11 +5,9 @@ import React, { Component } from 'react';
 class SearchBox extends Component{
 
     render(){
-       return (
-        <div>
-            <input placeholder="Entre votre recherche" onChange={this.props.onChangeHandler}></input>
-        </div>
-       )
+        return (
+             <input className =  {this.props.className} placeholder={this.props.placeholder} onChange={this.props.onChangeHandler}></input>
+        )
 
     }
 }

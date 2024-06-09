@@ -8,8 +8,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(
     to left,
-    rgba(7, 27, 82, 1) 0%,
-    rgba(0, 128, 128, 1) 100%
+    rgb(90, 12, 80) 0%,
+    rgb(248, 149, 243 ) 100%
   );
   text-align: center;
+  font-family: "Butterfly Kids", cursive;
+  
+}
+.app-title{
+  font-family: "Dancing Script", cursive;
+  font-size: xx-large;
+  padding: 1rem;
+  color: #99fff7;
 }

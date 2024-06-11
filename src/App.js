@@ -1,8 +1,24 @@
 import "./App.css";
-import { Component } from "react";
+import { Component, useState } from "react";
 import CardList from "./components/cardList/cardList.components"
 import SearchBox from "./components/searchBox/search-box.component";
+
  
+
+// const App = () => {
+//   console.log("render !");
+//   const [usea,setA] = useState('a')
+//   const onSearchChange = (e) => {
+//        setA(e.target.value.toLowerCase())
+//       }
+//   return (
+//     <>
+//     <h1> hello </h1>
+//     <SearchBox onChangeHandler={onSearchChange}/>
+//     </>
+//   )
+// }
+
 
 class App extends Component {
 
@@ -52,3 +68,5 @@ class App extends Component {
 }
 
 export default App;
+
+

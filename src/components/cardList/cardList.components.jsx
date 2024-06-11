@@ -5,7 +5,7 @@ const CardList = ({ filterMonster }) => {
   return (
   <div className="card-list">
     {filterMonster.map((monster) => {
-      return <Card monster={monster} />;
+      return <Card key={monster.id} monster={monster} />;
     })}
   </div>
   )
